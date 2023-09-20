@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first program</title>
+</head>
+<style>
+    body{
+        background-color: rgb(98, 0, 255);
+        color: white;
+        font: normal 20pt Arial
+    }
+
+    h1{
+        color: aquamarine;
+    }
+</style>
+<body>
+    <!-- <h1>Hello, World!!</h1>
+    <p>I've already freed myself from the curse!</p> -->
+    <script>
+        /*
+        window.alert('My firts message')
+        window.confirm('Are you liking JS?')
+        */
+        var name = window.prompt('What`s your name?')
+        window.alert(`Nice to meet you, ${name}`)
+        var n1 = Number(window.prompt('Type a number: '))
+        var n2 = Number(window.prompt('Type another number: '))
+        window.alert(`The sum between these number is ${n1+n2}`)
+
+        document.write(`Your name is ${name} and it has ${name.length} letters</br> `)
+        document.write(`Your name in upper case is ${name.toUpperCase()}</br>`)
+        document.write(`Your name in lower case is ${name.toLowerCase()}`)
+    </script>
+</body>
+</html>
